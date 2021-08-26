@@ -1,0 +1,9 @@
+y_1_1=HyperbolicTangent(51.8728+18.0742*sepal_length-27.0608*sepal_width+8.03652*petal_length-3.38483*petal_width);
+y_1_2=HyperbolicTangent(45.8208-1.82838*sepal_length+37.4543*sepal_width-6.6602*petal_length-12.4727*petal_width);
+y_1_3=HyperbolicTangent(-92.4137+4.64521*sepal_length-35.7839*sepal_width+128.896*petal_length+107.656*petal_width);
+y_1_4=HyperbolicTangent(100.865+13.1035*sepal_length+42.1408*sepal_width-130.615*petal_length-124.142*petal_width);
+y_1_5=HyperbolicTangent(32.6556-13.1035*sepal_length-84.4287*sepal_width+41.4158*petal_length+87.0586*petal_width);
+y_1_6=HyperbolicTangent(2.17886+0.0583912*sepal_length+0.024395*sepal_width-0.214434*petal_length-0.0130795*petal_width);
+iris_setosa=Linear(-14.2645+18.2957*y_1_1-3.43876*y_1_2+0.00296712*y_1_3+0.00318321*y_1_4-0.500611*y_1_5-0.0946008*y_1_6);
+iris_versicolour=Linear(4.44926-8.43073*y_1_1-17.951*y_1_2+16.8851*y_1_3+17.3198*y_1_4+0.585678*y_1_5+22.4957*y_1_6);
+iris_virginica=Linear(2.54645+25.8119*y_1_1-6.00525*y_1_2-16.8875*y_1_3-17.3224*y_1_4-0.0851337*y_1_5-22.4145*y_1_6);

@@ -1,0 +1,88 @@
+
+#ifndef COMMON_FILES_INCLUDED
+#define COMMON_FILES_INCLUDED
+#include <math.h>
+#include <iostream.h>
+#endif
+
+const int NO_INPUTS   = 3;
+const int NO_HIDDEN   = 3;
+const int NO_OUTPUTS  = 1;
+const int NO_PATTERNS = 8;
+
+
+const float MAX_ITERATIONS = 1000000;
+const double LEAST_ERROR = 0.00001;
+
+typedef long double DP;
+
+/*********************************************/
+/* RANDOM Weights with small values          */
+/*********************************************/
+
+const DP Input_Weights[NO_INPUTS][NO_INPUTS] = {
+	{ 0.1, 0.1, 0.1 }, 
+	{ 0.1, 0.1, 0.1 },
+	{ 0.1, 0.1, 0.1 }
+};
+
+const DP Hidden_Weights[NO_HIDDEN][NO_INPUTS] = {
+	{ 1, 1, 2 } , 
+	{ 1, 1, 2 } , 
+	{ 2, 1, 1 }
+};
+
+ const DP Output_Weights[NO_OUTPUTS][NO_HIDDEN] = {
+	{ -1, 1, 0.5 } 
+};
+
+/***************************************************************/
+/*This particular application trains a BPN network to identify */
+/*  a 3 input XOR classification							   */
+/***************************************************************/
+
+		
+const DP Inputs[NO_PATTERNS][NO_INPUTS] = {
+	{ 0, 0, 0 },
+	{ 0, 0, 1 },
+	{ 0, 1, 0 },
+	{ 0, 1, 1 },
+	{ 1, 0, 0 },
+	{ 1, 0, 1 },
+	{ 1, 1, 0 },
+	{ 1, 1, 1 }
+};
+
+const DP Desired_Outputs[NO_PATTERNS][NO_OUTPUTS] = {
+	{ 0 },
+	{ 1 }, 
+	{ 1 },
+	{ 0 },
+	{ 1 },
+	{ 0 },
+	{ 0 },
+	{ 0 }
+};
+
+
+DP eta = 0.7;
+
+DP alpha = 1;
+/***********************************************************/
+/*               SOME USEFUL FUNCTIONS                     */
+/***********************************************************/
+
+DP Activate(DP S)
+{
+	return 1 / ( 1 + exp(-S));
+}
+
+DP HardLimiter(DP Out)
+{
+	return (Out > 0.5 ? 1.0 : 0.0 );
+}
+
+DP Deriv(DP y)
+{
+	return y * (1 - y);
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<DataSet Version="4">
+    <DataFilename>../data/iris_plant/iris_plant.dat</DataFilename>
+    <VariablesInformation Version="4">
+        <VariablesNumber>7</VariablesNumber>
+        <Names>
+            <Name Index="1">sepal_length</Name>
+            <Name Index="2">sepal_width</Name>
+            <Name Index="3">petal_length</Name>
+            <Name Index="4">petal_width</Name>
+            <Name Index="5">iris_setosa</Name>
+            <Name Index="6">iris_versicolour</Name>
+            <Name Index="7">iris_virginica</Name>
+        </Names>
+        <Units>
+            <Unit Index="1">centimeters</Unit>
+            <Unit Index="2">centimeters</Unit>
+            <Unit Index="3">centimeters</Unit>
+            <Unit Index="4">centimeters</Unit>
+            <Unit Index="5"></Unit>
+            <Unit Index="6"></Unit>
+            <Unit Index="7"></Unit>
+        </Units>
+        <Descriptions>
+            <Description Index="1"></Description>
+            <Description Index="2"></Description>
+            <Description Index="3"></Description>
+            <Description Index="4"></Description>
+            <Description Index="5"></Description>
+            <Description Index="6"></Description>
+            <Description Index="7"></Description>
+        </Descriptions>
+        <InputIndices>1 2 3 4</InputIndices>
+        <TargetIndices>5 6 7</TargetIndices>
+    </VariablesInformation>
+    <InstancesInformation Version="4">
+        <InstancesNumber>150</InstancesNumber>
+        <TrainingIndices>1 2 3 5 6 8 9 10 11 12 14 16 18 19 21 22 23 24 26 27 29 30 32 33 34 35 36 37 41 42 43 44 45 47 49 50 51 52 55 56 59 61 62 63 65 66 68 69 70 71 72 73 75 76 77 78 79 81 82 83 84 85 86 87 89 90 91 93 95 96 97 98 99 100 101 102 106 107 108 109 110 111 112 113 115 116 117 118 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 137 138 140 141 142 144 145 147 148 150</TrainingIndices>
+        <TestingIndices>4 7 13 15 17 20 25 28 31 38 39 40 46 48 53 54 57 58 60 64 67 74 80 88 92 94 103 104 105 114 119 120 136 139 143 146 149</TestingIndices>
+    </InstancesInformation>
+</DataSet>

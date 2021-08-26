@@ -1,0 +1,16 @@
+scaled_frequency=2*(frequency-200)/(20000-200)-1;
+scaled_angle_of_attack=2*(angle_of_attack-0)/(22.2-0)-1;
+scaled_chord_length=2*(chord_length-0.0254)/(0.3048-0.0254)-1;
+scaled_free_stream_velocity=2*(free_stream_velocity-31.7)/(71.3-31.7)-1;
+scaled_suction_side_displacement_thickness=2*(suction_side_displacement_thickness-0.000400682)/(0.0584113-0.000400682)-1;
+y_1_1=HyperbolicTangent(-14.3527-14.0561*scaled_frequency-0.00594843*scaled_angle_of_attack-1.06271*scaled_chord_length+0.111476*scaled_free_stream_velocity-1.1158*scaled_suction_side_displacement_thickness);
+y_1_2=HyperbolicTangent(4.00145+4.59844*scaled_frequency-3.70404*scaled_angle_of_attack-0.311143*scaled_chord_length-0.202398*scaled_free_stream_velocity+1.00394*scaled_suction_side_displacement_thickness);
+y_1_3=HyperbolicTangent(-5.54521+5.22756*scaled_frequency+1.12132*scaled_angle_of_attack-11.2456*scaled_chord_length-0.383209*scaled_free_stream_velocity+2.31505*scaled_suction_side_displacement_thickness);
+y_1_4=HyperbolicTangent(-0.0802163-0.294706*scaled_frequency+0.234906*scaled_angle_of_attack-0.608444*scaled_chord_length+0.0738625*scaled_free_stream_velocity-0.875134*scaled_suction_side_displacement_thickness);
+y_1_5=HyperbolicTangent(0.951539+1.37571*scaled_frequency+1.3668*scaled_angle_of_attack+0.0924254*scaled_chord_length-0.0857828*scaled_free_stream_velocity-0.520596*scaled_suction_side_displacement_thickness);
+y_1_6=HyperbolicTangent(12.7213+12.0957*scaled_frequency+0.149273*scaled_angle_of_attack+0.897457*scaled_chord_length-0.123293*scaled_free_stream_velocity+1.15705*scaled_suction_side_displacement_thickness);
+y_1_7=HyperbolicTangent(-17.7354-16.528*scaled_frequency-0.00672624*scaled_angle_of_attack+0.0960329*scaled_chord_length+0.0340093*scaled_free_stream_velocity-3.65959*scaled_suction_side_displacement_thickness);
+y_1_8=HyperbolicTangent(0.571193+1.04297*scaled_frequency-0.128473*scaled_angle_of_attack+1.16289*scaled_chord_length-0.115656*scaled_free_stream_velocity+1.35515*scaled_suction_side_displacement_thickness);
+y_1_9=HyperbolicTangent(4.09965+0.536308*scaled_frequency-3.78762*scaled_angle_of_attack+2.81953*scaled_chord_length+0.318351*scaled_free_stream_velocity+0.00834542*scaled_suction_side_displacement_thickness);
+scaled_scaled_sound_pressure_level=Linear(-1.10967+2.24007*y_1_1-0.400337*y_1_2+0.261416*y_1_3+2.23789*y_1_4-0.822586*y_1_5+3.34936*y_1_6+0.391152*y_1_7+1.10893*y_1_8+0.362816*y_1_9);
+scaled_sound_pressure_level=0.5*(scaled_scaled_sound_pressure_level+1.0)*(1--1)+-1;

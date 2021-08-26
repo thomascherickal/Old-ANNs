@@ -1,0 +1,4 @@
+y_1_1=HyperbolicTangent(-1.04102-0.0589858*x);
+y_1_2=HyperbolicTangent(-2.38368-0.188502*x);
+y_1_3=HyperbolicTangent(0.322975+0.829878*x);
+y=Linear(3.96199-1.98128*y_1_1-1.73677*y_1_2-0.679058*y_1_3);

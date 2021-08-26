@@ -1,0 +1,5 @@
+scaled_time=2*(time-0)/(54-0)-1;
+y_1_1=HyperbolicTangent(0.000329049+0.00118754*scaled_time);
+y_1_2=HyperbolicTangent(-0.000356149+0.000732358*scaled_time);
+scaled_feed_rate=Linear(-0.413579+0.000110425*y_1_1-0.0010707*y_1_2);
+feed_rate=0.5*(scaled_feed_rate+1.0)*(12-0)+0;

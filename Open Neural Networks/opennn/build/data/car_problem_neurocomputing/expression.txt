@@ -1,0 +1,4 @@
+y_1_1=HyperbolicTangent(0.0575519-0.166191*time);
+y_1_2=HyperbolicTangent(-0.00903102+0.126805*time);
+y_1_3=HyperbolicTangent(0.0271031-0.00810747*time);
+acceleration=Linear(0.0174591+0.00688714*y_1_1-0.0502221*y_1_2+0.101052*y_1_3);

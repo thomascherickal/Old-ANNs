@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<PerformanceFunctional Version="4">
+    <ObjectiveTermType>FINAL_SOLUTIONS_ERROR</ObjectiveTermType>
+    <RegularizationTermType>NONE</RegularizationTermType>
+    <ConstraintsTermType>NONE</ConstraintsTermType>
+    <ObjectiveFlag>1</ObjectiveFlag>
+    <RegularizationFlag>0</RegularizationFlag>
+    <ConstraintsFlag>0</ConstraintsFlag>
+    <FinalSolutionsError Version="4">
+        <NumericalDifferentiation Version="4">
+            <NumericalDifferentiationMethod>CentralDifferences</NumericalDifferentiationMethod>
+            <PrecisionDigits>6</PrecisionDigits>
+            <Display>1</Display>
+        </NumericalDifferentiation>
+        <FinalSolutionsErrorsWeights>1</FinalSolutionsErrorsWeights>
+        <TargetFinalSolution>0</TargetFinalSolution>
+        <Display>1</Display>
+    </FinalSolutionsError>
+    <Display>1</Display>
+</PerformanceFunctional>

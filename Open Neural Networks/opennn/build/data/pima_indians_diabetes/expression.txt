@@ -1,0 +1,15 @@
+scaled_pregnant=2*(pregnant-0)/(17-0)-1;
+scaled_glucose=2*(glucose-0)/(199-0)-1;
+scaled_pressure=2*(pressure-0)/(122-0)-1;
+scaled_thickness=2*(thickness-0)/(99-0)-1;
+scaled_insulin=2*(insulin-0)/(846-0)-1;
+scaled_mass_index=2*(mass_index-0)/(67.1-0)-1;
+scaled_pedigree=2*(pedigree-0.078)/(2.42-0.078)-1;
+scaled_age=2*(age-21)/(81-21)-1;
+y_1_1=HyperbolicTangent(-19361.8+2720.66*scaled_pregnant-34789.7*scaled_glucose+14074.2*scaled_pressure+20908.1*scaled_thickness-16421.1*scaled_insulin-41855.5*scaled_mass_index-30001*scaled_pedigree-9513.49*scaled_age);
+y_1_2=HyperbolicTangent(-28425.2-10575.6*scaled_pregnant+22615.6*scaled_glucose-21020.1*scaled_pressure+17164.5*scaled_thickness+3535.8*scaled_insulin-5949.37*scaled_mass_index+324.101*scaled_pedigree-15095.4*scaled_age);
+y_1_3=HyperbolicTangent(-16088.2-40480.5*scaled_pregnant+8728.79*scaled_glucose+16816*scaled_pressure-994.245*scaled_thickness+38083*scaled_insulin+4018.34*scaled_mass_index-2115.17*scaled_pedigree-6742.38*scaled_age);
+y_1_4=HyperbolicTangent(17506-26460.5*scaled_pregnant-28987.1*scaled_glucose-14158*scaled_pressure-3644.44*scaled_thickness+21033.9*scaled_insulin+9582.99*scaled_mass_index-12962*scaled_pedigree+15524.6*scaled_age);
+y_1_5=HyperbolicTangent(10338.1-509.561*scaled_pregnant-1201.73*scaled_glucose-1438.31*scaled_pressure+1965.38*scaled_thickness-6903*scaled_insulin-3443.73*scaled_mass_index+861.709*scaled_pedigree+15283.9*scaled_age);
+y_1_6=HyperbolicTangent(6487.02+10560.7*scaled_pregnant+8664.33*scaled_glucose+7928.73*scaled_pressure-8280.57*scaled_thickness+17584.9*scaled_insulin-24200.9*scaled_mass_index-44624.2*scaled_pedigree-19256.5*scaled_age);
+diabetes=Linear(0.299626-0.185273*y_1_1+0.245658*y_1_2+0.151633*y_1_3-0.186462*y_1_4+0.196888*y_1_5+0.346847*y_1_6);

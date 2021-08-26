@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<DataSet Version="4">
+    <DataFilename>../data/opennn_tests/data.dat</DataFilename>
+    <VariablesInformation Version="4">
+        <VariablesNumber>2</VariablesNumber>
+        <Names>
+            <Name Index="1">x</Name>
+            <Name Index="2">y</Name>
+        </Names>
+        <Units>
+            <Unit Index="1">[m]</Unit>
+            <Unit Index="2">[s]</Unit>
+        </Units>
+        <Descriptions>
+            <Description Index="1">distance</Description>
+            <Description Index="2">time</Description>
+        </Descriptions>
+        <InputIndices>1</InputIndices>
+        <TargetIndices>2</TargetIndices>
+    </VariablesInformation>
+    <InstancesInformation Version="4">
+        <InstancesNumber>1</InstancesNumber>
+        <TrainingIndices>1</TrainingIndices>
+    </InstancesInformation>
+</DataSet>

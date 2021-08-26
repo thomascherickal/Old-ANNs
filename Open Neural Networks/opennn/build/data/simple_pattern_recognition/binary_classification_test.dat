@@ -1,0 +1,7 @@
+Binary classification test
+Classification accuracy: 0.88
+Error rate: 0.12
+Sensitivity: 1
+Specifity: 0.823529
+Positive likelihood: 5.66667
+Negative likelihood: 1.#INF

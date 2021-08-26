@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<PerformanceFunctional Version="4">
+    <ObjectiveTermType>INDEPENDENT_PARAMETERS_ERROR</ObjectiveTermType>
+    <RegularizationTermType>NONE</RegularizationTermType>
+    <ConstraintsTermType>FINAL_SOLUTIONS_ERROR</ConstraintsTermType>
+    <ObjectiveFlag>1</ObjectiveFlag>
+    <RegularizationFlag>0</RegularizationFlag>
+    <ConstraintsFlag>1</ConstraintsFlag>
+    <IndependentParametersError Version="4">
+        <NumericalDifferentiation Version="4">
+            <NumericalDifferentiationMethod>CentralDifferences</NumericalDifferentiationMethod>
+            <PrecisionDigits>6</PrecisionDigits>
+            <Display>1</Display>
+        </NumericalDifferentiation>
+        <TargetIndependentParamters>0</TargetIndependentParamters>
+        <IndependentParametersErrorsWeights>0.001</IndependentParametersErrorsWeights>
+        <Display>1</Display>
+    </IndependentParametersError>
+    <FinalSolutionsError Version="4">
+        <NumericalDifferentiation Version="4">
+            <NumericalDifferentiationMethod>CentralDifferences</NumericalDifferentiationMethod>
+            <PrecisionDigits>6</PrecisionDigits>
+            <Display>1</Display>
+        </NumericalDifferentiation>
+        <FinalSolutionsErrorsWeights>1 1</FinalSolutionsErrorsWeights>
+        <TargetFinalSolution>1 0</TargetFinalSolution>
+        <Display>1</Display>
+    </FinalSolutionsError>
+    <Display>1</Display>
+</PerformanceFunctional>

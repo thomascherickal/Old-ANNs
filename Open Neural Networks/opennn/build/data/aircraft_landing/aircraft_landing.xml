@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<OrdinaryDifferentialEquations Version="4">
+    <IndependentVariablesNumber>1</IndependentVariablesNumber>
+    <DependentVariablesNumber>4</DependentVariablesNumber>
+    <InitialIndependentVariable>0</InitialIndependentVariable>
+    <FinalIndependentVariable>20</FinalIndependentVariable>
+    <InitialDependentVariables>0 -0.078 6 30</InitialDependentVariables>
+    <SolutionMethod>RungeKuttaFehlberg</SolutionMethod>
+    <PointsNumber>1001</PointsNumber>
+    <Tolerance>1e-006</Tolerance>
+    <InitialSize>1000</InitialSize>
+    <WarningSize>1000000</WarningSize>
+    <ErrorSize>1000000000</ErrorSize>
+    <Display>1</Display>
+</OrdinaryDifferentialEquations>

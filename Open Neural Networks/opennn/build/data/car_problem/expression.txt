@@ -1,0 +1,7 @@
+y_1_1=HyperbolicTangent(0.0233356+0.0290562*time);
+y_1_2=HyperbolicTangent(0.0535735-0.00270518*time);
+y_1_3=HyperbolicTangent(-0.0879524+0.0756465*time);
+scaled_throttle_acceleration=Linear(-0.0430324+0.0655862*y_1_1+0.0844666*y_1_2-0.051147*y_1_3);
+scaled_bracking_deceleration=Linear(-0.204887+0.23537*y_1_1-0.127749*y_1_2-0.0617062*y_1_3);
+throttle_acceleration=0.5*(scaled_throttle_acceleration+1.0)*(1-0)+0;
+bracking_deceleration=0.5*(scaled_bracking_deceleration+1.0)*(0--1)+-1;

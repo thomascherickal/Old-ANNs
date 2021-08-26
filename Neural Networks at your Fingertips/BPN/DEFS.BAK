@@ -1,0 +1,70 @@
+
+#ifndef COMMON_FILES_INCLUDED
+#define COMMON_FILES_INCLUDED 
+#include <cmath>
+#include <iostream>
+#endif
+
+using namespace std;
+
+const int NO_INPUTS   = 4;
+const int NO_HIDDEN   = 4;
+const int NO_OUTPUTS  = 1;
+const int NO_PATTERNS = 8;
+
+typedef long double DP;
+
+/*********************************************/
+/* RANDOM Weights with small values          */
+/*********************************************/
+
+const DP Input_Weights[NO_INPUTS][NO_INPUTS] = {
+	{ 0.1, 0.1, 0.1, 0.1 } , 
+	{ 0.1, 0.1, 0.2, 0.1 } ,
+	{ 0.1 ,0.2, 0.1, 0.1 } ,
+	{ 0.1, 0.1, 0.1, 0.2 } ,
+};
+
+const DP Hidden_Weights[NO_HIDDEN][NO_INPUTS] = {
+	{ 0.6, 0.7, 0.5, 0.6 } , 
+	{ 0.6, 0.5, 0.7, 0.5 } ,
+	{ 0.6 ,0.6, 0.5, 0.7 } ,
+	{ 0.5, 0.8, 0.7, 0.5 } ,
+};
+
+ const DP Output_Weights[NO_OUTPUTS][NO_HIDDEN] = {
+	{ 0.5, 0.1, 0.1, 0.5 } 
+};
+
+/***************************************************************/
+/*This particular application trains a BPN network to identify */
+/*  a 4 input AND classification							   */
+/***************************************************************/
+
+		
+const DP Inputs[NO_PATTERNS][NO_INPUTS] = {
+	{ 1, 0, 0, 0 },
+	{ 0, 0, 1, 1 },
+	{ 0, 1, 0, 0 },
+	{ 0, 1, 1, 1 },
+	{ 1, 0, 0, 0 },
+	{ 1, 0, 1, 1 },
+	{ 1, 1, 0, 0 },
+	{ 1, 0, 1, 1 },
+};
+
+const DP Desired_Outputs[NO_PATTERNS][NO_OUTPUTS] = {
+	{ 0 },
+	{ 0 }, 
+	{ 0 },
+	{ 0 },
+	{ 0 }, 
+	{ 0 },
+	{ 0 },
+	{ 0 },
+
+};
+
+
+DP eta = 1;
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<PerformanceFunctional Version="4">
+    <ObjectiveTermType>SOLUTION_ERROR</ObjectiveTermType>
+    <RegularizationTermType>NEURAL_PARAMETERS_NORM</RegularizationTermType>
+    <ConstraintsTermType>FINAL_SOLUTIONS_ERROR</ConstraintsTermType>
+    <ObjectiveFlag>1</ObjectiveFlag>
+    <RegularizationFlag>1</RegularizationFlag>
+    <ConstraintsFlag>1</ConstraintsFlag>
+    <SolutionsError Version="4">
+        <NumericalDifferentiation Version="4">
+            <NumericalDifferentiationMethod>CentralDifferences</NumericalDifferentiationMethod>
+            <PrecisionDigits>6</PrecisionDigits>
+            <Display>1</Display>
+        </NumericalDifferentiation>
+        <NumericalIntegration Version="4">
+            <NumericalIntegrationMethod>SimpsonMethod</NumericalIntegrationMethod>
+            <Display>1</Display>
+        </NumericalIntegration>
+        <SolutionsErrorMethod>SolutionsErrorSum</SolutionsErrorMethod>
+        <SolutionsErrorWeights>0 0 0 0.01</SolutionsErrorWeights>
+        <Display>1</Display>
+    </SolutionsError>
+    <NeuralParametersNorm Version="4">
+        <NeuralParametersNormWeight>0.001</NeuralParametersNormWeight>
+        <Display>1</Display>
+    </NeuralParametersNorm>
+    <FinalSolutionsError Version="4">
+        <NumericalDifferentiation Version="4">
+            <NumericalDifferentiationMethod>CentralDifferences</NumericalDifferentiationMethod>
+            <PrecisionDigits>6</PrecisionDigits>
+            <Display>1</Display>
+        </NumericalDifferentiation>
+        <FinalSolutionsErrorsWeights>0 0.001 0 0.001</FinalSolutionsErrorsWeights>
+        <TargetFinalSolution>0 0.0174533 0 0</TargetFinalSolution>
+        <Display>1</Display>
+    </FinalSolutionsError>
+    <Display>1</Display>
+</PerformanceFunctional>

@@ -1,0 +1,6 @@
+scaled_time=2*(time-0)/(20-0)-1;
+y_1_1=HyperbolicTangent(9.82539e-005-0.123975*scaled_time);
+y_1_2=HyperbolicTangent(0.176462-0.0726085*scaled_time);
+y_1_3=HyperbolicTangent(0.0901332+0.0629817*scaled_time);
+scaled_elevator_deflection_angle=Linear(0.0257075-0.0496915*y_1_1-0.0982161*y_1_2-0.0548071*y_1_3);
+elevator_deflection_angle=0.5*(scaled_elevator_deflection_angle+1.0)*(5--5)+-5;

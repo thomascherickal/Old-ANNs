@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <MultilayerPerceptron Version="4">
+        <Architecture>1 2 1</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>0.000329049 0.00118754 -0.000356149 0.000732358 -0.413579 0.000110425 -0.0010707</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <ScalingLayer Version="4">
+        <Minimums>0</Minimums>
+        <Maximums>54</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+        <Display>1</Display>
+    </ScalingLayer>
+    <UnscalingLayer Version="4">
+        <Minimums>0</Minimums>
+        <Maximums>12</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        <Display>1</Display>
+    </UnscalingLayer>
+    <BoundingLayer Version="4">
+        <LowerBounds>0</LowerBounds>
+        <UpperBounds>12</UpperBounds>
+        <Display>1</Display>
+    </BoundingLayer>
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">time</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1">seconds</InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">feed_rate</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1">grams</OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+        </OutputsDescription>
+        <Display>0</Display>
+    </InputsOutputsInformation>
+    <ScalingLayerFlag>1</ScalingLayerFlag>
+    <UnscalingLayerFlag>1</UnscalingLayerFlag>
+    <BoundingLayerFlag>1</BoundingLayerFlag>
+    <ConditionsLayerFlag>0</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>

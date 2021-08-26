@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">pregnant</InputName>
+            <InputName Index="2">glucose</InputName>
+            <InputName Index="3">pressure</InputName>
+            <InputName Index="4">thickness</InputName>
+            <InputName Index="5">insulin</InputName>
+            <InputName Index="6">mass_index</InputName>
+            <InputName Index="7">pedigree</InputName>
+            <InputName Index="8">age</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1"></InputUnits>
+            <InputUnits Index="2"></InputUnits>
+            <InputUnits Index="3">mmHg</InputUnits>
+            <InputUnits Index="4">mm</InputUnits>
+            <InputUnits Index="5">muU/ml</InputUnits>
+            <InputUnits Index="6">kg/m2</InputUnits>
+            <InputUnits Index="7"></InputUnits>
+            <InputUnits Index="8"></InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+            <InputDescription Index="2"></InputDescription>
+            <InputDescription Index="3"></InputDescription>
+            <InputDescription Index="4"></InputDescription>
+            <InputDescription Index="5"></InputDescription>
+            <InputDescription Index="6"></InputDescription>
+            <InputDescription Index="7"></InputDescription>
+            <InputDescription Index="8"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">diabetes</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1"></OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+        </OutputsDescription>
+        <Display>1</Display>
+    </InputsOutputsInformation>
+    <MultilayerPerceptron Version="4">
+        <Architecture>8 6 1</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>-19361.8 2720.66 -34789.7 14074.2 20908.1 -16421.1 -41855.5 -30001 -9513.49 -28425.2 -10575.6 22615.6 -21020.1 17164.5 3535.8 -5949.37 324.101 -15095.4 -16088.2 -40480.5 8728.79 16816 -994.245 38083 4018.34 -2115.17 -6742.38 17506 -26460.5 -28987.1 -14158 -3644.44 21033.9 9582.99 -12962 15524.6 10338.1 -509.561 -1201.73 -1438.31 1965.38 -6903 -3443.73 861.709 15283.9 6487.02 10560.7 8664.33 7928.73 -8280.57 17584.9 -24200.9 -44624.2 -19256.5 0.299626 -0.185273 0.245658 0.151633 -0.186462 0.196888 0.346847</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <ScalingLayer Version="4">
+        <Minimums>0 0 0 0 0 0 0.078 21</Minimums>
+        <Maximums>17 199 122 99 846 67.1 2.42 81</Maximums>
+        <Means>3.84505 120.895 69.1055 20.5365 79.7995 31.9926 0.471876 33.2409</Means>
+        <StandardDeviations>3.36958 31.9726 19.3558 15.9522 115.244 7.88416 0.331329 11.7602</StandardDeviations>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+        <Display>1</Display>
+    </ScalingLayer>
+    <UnscalingLayer Version="4">
+        <Minimums>-1</Minimums>
+        <Maximums>1</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        <Display>1</Display>
+    </UnscalingLayer>
+    <ScalingLayerFlag>1</ScalingLayerFlag>
+    <UnscalingLayerFlag>0</UnscalingLayerFlag>
+    <ProbabilisticLayerFlag>0</ProbabilisticLayerFlag>
+    <BoundingLayerFlag>0</BoundingLayerFlag>
+    <ConditionsLayerFlag>0</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>

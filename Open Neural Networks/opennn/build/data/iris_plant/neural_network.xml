@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">sepal_length</InputName>
+            <InputName Index="2">sepal_width</InputName>
+            <InputName Index="3">petal_length</InputName>
+            <InputName Index="4">petal_width</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1">centimeters</InputUnits>
+            <InputUnits Index="2">centimeters</InputUnits>
+            <InputUnits Index="3">centimeters</InputUnits>
+            <InputUnits Index="4">centimeters</InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+            <InputDescription Index="2"></InputDescription>
+            <InputDescription Index="3"></InputDescription>
+            <InputDescription Index="4"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">iris_setosa</OutputName>
+            <OutputName Index="2">iris_versicolour</OutputName>
+            <OutputName Index="3">iris_virginica</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1"></OutputUnits>
+            <OutputUnits Index="2"></OutputUnits>
+            <OutputUnits Index="3"></OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+            <OutputDescription Index="2"></OutputDescription>
+            <OutputDescription Index="3"></OutputDescription>
+        </OutputsDescription>
+        <Display>1</Display>
+    </InputsOutputsInformation>
+    <MultilayerPerceptron Version="4">
+        <Architecture>4 6 3</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>51.8728 18.0742 -27.0608 8.03652 -3.38483 45.8208 -1.82838 37.4543 -6.6602 -12.4727 -92.4137 4.64521 -35.7839 128.896 107.656 100.865 13.1035 42.1408 -130.615 -124.142 32.6556 -13.1035 -84.4287 41.4158 87.0586 2.17886 0.0583912 0.024395 -0.214434 -0.0130795 -14.2645 18.2957 -3.43876 0.00296712 0.00318321 -0.500611 -0.0946008 4.44926 -8.43073 -17.951 16.8851 17.3198 0.585678 22.4957 2.54645 25.8119 -6.00525 -16.8875 -17.3224 -0.0851337 -22.4145</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <ScalingLayer Version="4">
+        <Minimums>4.3 2 1 0.1</Minimums>
+        <Maximums>7.9 4.4 6.9 2.5</Maximums>
+        <Means>5.84333 3.05733 3.758 1.19933</Means>
+        <StandardDeviations>0.828066 0.435866 1.7653 0.762238</StandardDeviations>
+        <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+        <Display>1</Display>
+    </ScalingLayer>
+    <UnscalingLayer Version="4">
+        <Minimums>-1 -1 -1</Minimums>
+        <Maximums>1 1 1</Maximums>
+        <Means>0 0 0</Means>
+        <StandardDeviations>1 1 1</StandardDeviations>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        <Display>1</Display>
+    </UnscalingLayer>
+    <ScalingLayerFlag>0</ScalingLayerFlag>
+    <UnscalingLayerFlag>0</UnscalingLayerFlag>
+    <ProbabilisticLayerFlag>0</ProbabilisticLayerFlag>
+    <BoundingLayerFlag>0</BoundingLayerFlag>
+    <ConditionsLayerFlag>0</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>

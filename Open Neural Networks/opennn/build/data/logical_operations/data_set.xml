@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<DataSet Version="4">
+    <DataFilename>../data/logical_operations/logical_operations.dat</DataFilename>
+    <VariablesInformation Version="4">
+        <VariablesNumber>8</VariablesNumber>
+        <Names>
+            <Name Index="1">X</Name>
+            <Name Index="2">Y</Name>
+            <Name Index="3">AND</Name>
+            <Name Index="4">OR</Name>
+            <Name Index="5">NAND</Name>
+            <Name Index="6">NOR</Name>
+            <Name Index="7">XNOR</Name>
+            <Name Index="8">XNOR</Name>
+        </Names>
+        <Units>
+            <Unit Index="1"></Unit>
+            <Unit Index="2"></Unit>
+            <Unit Index="3"></Unit>
+            <Unit Index="4"></Unit>
+            <Unit Index="5"></Unit>
+            <Unit Index="6"></Unit>
+            <Unit Index="7"></Unit>
+            <Unit Index="8"></Unit>
+        </Units>
+        <Descriptions>
+            <Description Index="1"></Description>
+            <Description Index="2"></Description>
+            <Description Index="3"></Description>
+            <Description Index="4"></Description>
+            <Description Index="5"></Description>
+            <Description Index="6"></Description>
+            <Description Index="7"></Description>
+            <Description Index="8"></Description>
+        </Descriptions>
+        <InputIndices>1 2</InputIndices>
+        <TargetIndices>3 4 5 6 7 8</TargetIndices>
+    </VariablesInformation>
+    <InstancesInformation Version="4">
+        <InstancesNumber>4</InstancesNumber>
+        <TrainingIndices>1 2 3 4</TrainingIndices>
+    </InstancesInformation>
+</DataSet>

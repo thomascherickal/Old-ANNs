@@ -1,0 +1,17 @@
+scaled_longitudinal_center_buoyancy=2*(longitudinal_center_buoyancy--5)/(0--5)-1;
+scaled_prismatic_coecient=2*(prismatic_coecient-0.53)/(0.6-0.53)-1;
+scaled_length_displacement_ratio=2*(length_displacement_ratio-4.34)/(5.14-4.34)-1;
+scaled_beam_draught_ratio=2*(beam_draught_ratio-2.81)/(5.35-2.81)-1;
+scaled_length_beam_ratio=2*(length_beam_ratio-2.73)/(3.64-2.73)-1;
+scaled_froude_number=2*(froude_number-0.125)/(0.45-0.125)-1;
+y_1_1=HyperbolicTangent(3.64292+3.12195*scaled_longitudinal_center_buoyancy-0.110133*scaled_prismatic_coecient+0.609176*scaled_length_displacement_ratio+0.581337*scaled_beam_draught_ratio-0.58495*scaled_length_beam_ratio-0.0214342*scaled_froude_number);
+y_1_2=HyperbolicTangent(-1.88129-5.82374*scaled_longitudinal_center_buoyancy+0.148657*scaled_prismatic_coecient+0.210969*scaled_length_displacement_ratio+0.868586*scaled_beam_draught_ratio-1.34705*scaled_length_beam_ratio+1.64707*scaled_froude_number);
+y_1_3=HyperbolicTangent(-0.740229+0.246325*scaled_longitudinal_center_buoyancy-0.264626*scaled_prismatic_coecient-3.01837*scaled_length_displacement_ratio+4.11384*scaled_beam_draught_ratio+3.35287*scaled_length_beam_ratio+1.62297*scaled_froude_number);
+y_1_4=HyperbolicTangent(-2.60685+0.225508*scaled_longitudinal_center_buoyancy+0.0285318*scaled_prismatic_coecient+0.724707*scaled_length_displacement_ratio-1.35722*scaled_beam_draught_ratio-1.84576*scaled_length_beam_ratio+1.89394*scaled_froude_number);
+y_1_5=HyperbolicTangent(-2.86571+0.0382371*scaled_longitudinal_center_buoyancy+0.0678403*scaled_prismatic_coecient+1.23483*scaled_length_displacement_ratio-2.22863*scaled_beam_draught_ratio-1.02053*scaled_length_beam_ratio+2.32715*scaled_froude_number);
+y_1_6=HyperbolicTangent(3.9168+0.18222*scaled_longitudinal_center_buoyancy-0.581979*scaled_prismatic_coecient-2.02962*scaled_length_displacement_ratio+0.94001*scaled_beam_draught_ratio+2.63678*scaled_length_beam_ratio-1.71814*scaled_froude_number);
+y_1_7=HyperbolicTangent(0.779496+0.0532914*scaled_longitudinal_center_buoyancy+0.0705341*scaled_prismatic_coecient+1.75753*scaled_length_displacement_ratio-1.6854*scaled_beam_draught_ratio-1.72794*scaled_length_beam_ratio+2.89071*scaled_froude_number);
+y_1_8=HyperbolicTangent(-1.61179-1.27264*scaled_longitudinal_center_buoyancy+1.41857*scaled_prismatic_coecient-1.26634*scaled_length_displacement_ratio-0.345998*scaled_beam_draught_ratio-2.25185*scaled_length_beam_ratio+1.06884*scaled_froude_number);
+y_1_9=HyperbolicTangent(-2.98279+0.0529573*scaled_longitudinal_center_buoyancy+0.119575*scaled_prismatic_coecient+1.53766*scaled_length_displacement_ratio-2.84777*scaled_beam_draught_ratio-1.2958*scaled_length_beam_ratio+2.3169*scaled_froude_number);
+scaled_residuary_resistance=Linear(3.61002-0.973179*y_1_1-0.226399*y_1_2+0.190687*y_1_3+0.447995*y_1_4+4.22848*y_1_5-2.02743*y_1_6+0.02637*y_1_7+0.0047227*y_1_8-3.06041*y_1_9);
+residuary_resistance=0.5*(scaled_residuary_resistance+1.0)*(1--1)+-1;

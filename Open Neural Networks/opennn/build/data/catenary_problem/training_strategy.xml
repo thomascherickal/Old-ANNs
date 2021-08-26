@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<TrainingStrategy Version="4">
+    <InitializationTrainingAlgorithmType>NONE</InitializationTrainingAlgorithmType>
+    <MainTrainingAlgorithmType>QUASI_NEWTON_METHOD</MainTrainingAlgorithmType>
+    <RefinementTrainingAlgorithmType>NONE</RefinementTrainingAlgorithmType>
+    <InitializationTrainingAlgorithmFlag>0</InitializationTrainingAlgorithmFlag>
+    <MainTrainingAlgorithmFlag>1</MainTrainingAlgorithmFlag>
+    <RefinementTrainingAlgorithmFlag>0</RefinementTrainingAlgorithmFlag>
+    <QuasiNewtonMethod Version="4">
+        <TrainingRateAlgorithm Version="4">
+            <TrainingRateMethod>BrentMethod</TrainingRateMethod>
+            <BracketingFactor>1.5</BracketingFactor>
+            <FirstTrainingRate>0.01</FirstTrainingRate>
+            <TrainingRateTolerance>1e-006</TrainingRateTolerance>
+            <WarningTrainingRate>1e+006</WarningTrainingRate>
+            <ErrorTrainingRate>1e+009</ErrorTrainingRate>
+            <Display>1</Display>
+        </TrainingRateAlgorithm>
+        <WarningParametersNorm>1e+006</WarningParametersNorm>
+        <WarningGradientNorm>1e+006</WarningGradientNorm>
+        <WarningTrainingRate>1e+006</WarningTrainingRate>
+        <ErrorParametersNorm>1e+009</ErrorParametersNorm>
+        <ErrorGradientNorm>1e+009</ErrorGradientNorm>
+        <ErrorTrainingRate>1e+009</ErrorTrainingRate>
+        <MinimumParametersIncrement>0</MinimumParametersIncrement>
+        <MinimumPerformanceIncrease>0</MinimumPerformanceIncrease>
+        <PerformanceGoal>-1e+099</PerformanceGoal>
+        <GradientNormGoal>0</GradientNormGoal>
+        <MaximumGeneralizationPerformanceDecreases>1000000</MaximumGeneralizationPerformanceDecreases>
+        <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+        <MaximumTime>1000</MaximumTime>
+        <ReserveParametersHistory>0</ReserveParametersHistory>
+        <ReserveParametersNormHistory>0</ReserveParametersNormHistory>
+        <ReservePerformanceHistory>0</ReservePerformanceHistory>
+        <ReserveGradientHistory>0</ReserveGradientHistory>
+        <ReserveGradientNormHistory>0</ReserveGradientNormHistory>
+        <ReserveInverseHessianHistory>0</ReserveInverseHessianHistory>
+        <ReserveTrainingDirectionHistory>0</ReserveTrainingDirectionHistory>
+        <ReserveTrainingRateHistory>0</ReserveTrainingRateHistory>
+        <ReserveElapsedTimeHistory>0</ReserveElapsedTimeHistory>
+        <ReserveGeneralizationPerformanceHistory>0</ReserveGeneralizationPerformanceHistory>
+        <DisplayPeriod>100</DisplayPeriod>
+        <Display>1</Display>
+    </QuasiNewtonMethod>
+    <Display>1</Display>
+</TrainingStrategy>

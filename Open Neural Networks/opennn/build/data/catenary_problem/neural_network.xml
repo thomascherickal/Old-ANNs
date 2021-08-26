@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <MultilayerPerceptron Version="4">
+        <Architecture>1 3 1</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>-1.04102 -0.0589858 -2.38368 -0.188502 0.322975 0.829878 3.96199 -1.98128 -1.73677 -0.679058</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <ScalingLayer Version="4">
+        <Minimums>0</Minimums>
+        <Maximums>1</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+        <Display>1</Display>
+    </ScalingLayer>
+    <UnscalingLayer Version="4">
+        <Minimums>0</Minimums>
+        <Maximums>1</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        <Display>1</Display>
+    </UnscalingLayer>
+    <ConditionsLayer Version="4">
+        <InputsNumber>1</InputsNumber>
+        <ConditionsNeuronsNumber>1</ConditionsNeuronsNumber>
+        <ConditionsMethod>TwoConditions</ConditionsMethod>
+        <InputValues>0 1</InputValues>
+        <OutputValues>1 1</OutputValues>
+        <Display>1</Display>
+    </ConditionsLayer>
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">x</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1"></InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">y</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1"></OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+        </OutputsDescription>
+        <Display>1</Display>
+    </InputsOutputsInformation>
+    <ScalingLayerFlag>0</ScalingLayerFlag>
+    <UnscalingLayerFlag>0</UnscalingLayerFlag>
+    <BoundingLayerFlag>0</BoundingLayerFlag>
+    <ConditionsLayerFlag>1</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>

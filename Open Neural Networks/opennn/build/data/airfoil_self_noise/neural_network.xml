@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <MultilayerPerceptron Version="4">
+        <Architecture>5 9 1</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>-14.3527 -14.0561 -0.00594843 -1.06271 0.111476 -1.1158 4.00145 4.59844 -3.70404 -0.311143 -0.202398 1.00394 -5.54521 5.22756 1.12132 -11.2456 -0.383209 2.31505 -0.0802163 -0.294706 0.234906 -0.608444 0.0738625 -0.875134 0.951539 1.37571 1.3668 0.0924254 -0.0857828 -0.520596 12.7213 12.0957 0.149273 0.897457 -0.123293 1.15705 -17.7354 -16.528 -0.00672624 0.0960329 0.0340093 -3.65959 0.571193 1.04297 -0.128473 1.16289 -0.115656 1.35515 4.09965 0.536308 -3.78762 2.81953 0.318351 0.00834542 -1.10967 2.24007 -0.400337 0.261416 2.23789 -0.822586 3.34936 0.391152 1.10893 0.362816</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <ScalingLayer Version="4">
+        <Minimums>200 0 0.0254 31.7 0.000400682</Minimums>
+        <Maximums>20000 22.2 0.3048 71.3 0.0584113</Maximums>
+        <Means>2886.38 6.7823 0.136548 50.8607 0.0111399</Means>
+        <StandardDeviations>3152.57 5.91813 0.0935407 15.5728 0.0131502</StandardDeviations>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+        <Display>1</Display>
+    </ScalingLayer>
+    <UnscalingLayer Version="4">
+        <Minimums>-1</Minimums>
+        <Maximums>1</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        <Display>1</Display>
+    </UnscalingLayer>
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">frequency</InputName>
+            <InputName Index="2">angle_of_attack</InputName>
+            <InputName Index="3">chord_length</InputName>
+            <InputName Index="4">free_stream_velocity</InputName>
+            <InputName Index="5">suction_side_displacement_thickness</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1">hertzs</InputUnits>
+            <InputUnits Index="2">degrees</InputUnits>
+            <InputUnits Index="3">meters</InputUnits>
+            <InputUnits Index="4">meters per second</InputUnits>
+            <InputUnits Index="5">meters</InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+            <InputDescription Index="2"></InputDescription>
+            <InputDescription Index="3"></InputDescription>
+            <InputDescription Index="4"></InputDescription>
+            <InputDescription Index="5"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">scaled_sound_pressure_level</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1">decibels</OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+        </OutputsDescription>
+        <Display>1</Display>
+    </InputsOutputsInformation>
+    <ScalingLayerFlag>1</ScalingLayerFlag>
+    <UnscalingLayerFlag>1</UnscalingLayerFlag>
+    <BoundingLayerFlag>0</BoundingLayerFlag>
+    <ConditionsLayerFlag>0</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data_set">
+      <UniqueIdentifier>{bb65815f-6ccd-40cb-9263-988caa079993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathematical_model">
+      <UniqueIdentifier>{52716e69-85f9-4c1f-8abc-e0f00dd46ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="neural_network">
+      <UniqueIdentifier>{58bfdfdb-71f8-4e6d-82bd-13569caa9f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="performance_functional">
+      <UniqueIdentifier>{880521b4-1922-4c3d-ba21-dd1ff1286e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model_selection">
+      <UniqueIdentifier>{e4a3c0bd-bb9a-4174-ac07-9aeadab498a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing_analysis">
+      <UniqueIdentifier>{b918a0e6-0ced-47eb-bf8b-05fce34ef966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{b48e61bb-4dd4-4c6f-a56a-2aad9748466f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="training_strategy">
+      <UniqueIdentifier>{f5bd2d86-ce0c-4570-b815-74c4639659d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\data_set\data_set.cpp">
+      <Filter>data_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\data_set\instances_information.cpp">
+      <Filter>data_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\data_set\variables_information.cpp">
+      <Filter>data_set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\mathematical_model\mathematical_model.cpp">
+      <Filter>mathematical_model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\mathematical_model\plug_in.cpp">
+      <Filter>mathematical_model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\bounding_layer.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\conditions_layer.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\independent_parameters.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\inputs_outputs_information.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\multilayer_perceptron.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\neural_network.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\perceptron.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\perceptron_layer.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\probabilistic_layer.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\scaling_layer.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\neural_network\unscaling_layer.cpp">
+      <Filter>neural_network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\model_selection\model_selection.cpp">
+      <Filter>model_selection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\testing_analysis\function_regression_testing.cpp">
+      <Filter>testing_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\testing_analysis\inverse_problem_testing.cpp">
+      <Filter>testing_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\testing_analysis\pattern_recognition_testing.cpp">
+      <Filter>testing_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\testing_analysis\testing_analysis.cpp">
+      <Filter>testing_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\testing_analysis\time_series_prediction_testing.cpp">
+      <Filter>testing_analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\conjugate_gradient.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\evolutionary_algorithm.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\gradient_descent.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\levenberg_marquardt_algorithm.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\newton_method.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\quasi_newton_method.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\random_search.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\training_algorithm.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\training_rate_algorithm.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\training_strategy\training_strategy.cpp">
+      <Filter>training_strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\cross_entropy_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\final_solutions_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\independent_parameters_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\inverse_sum_squared_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\mean_squared_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\minkowski_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\neural_parameters_norm.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\normalized_squared_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\outputs_integrals.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\performance_functional.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\performance_term.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\root_mean_squared_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\solutions_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\performance_functional\sum_squared_error.cpp">
+      <Filter>performance_functional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\utilities\linear_algebraic_equations.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\utilities\numerical_differentiation.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\utilities\numerical_integration.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\mathematical_model\ordinary_differential_equations.cpp">
+      <Filter>mathematical_model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\data_set\data_set.h">
+      <Filter>data_set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\data_set\instances_information.h">
+      <Filter>data_set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\data_set\variables_information.h">
+      <Filter>data_set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\mathematical_model\mathematical_model.h">
+      <Filter>mathematical_model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\mathematical_model\plug_in.h">
+      <Filter>mathematical_model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\bounding_layer.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\conditions_layer.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\independent_parameters.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\inputs_outputs_information.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\multilayer_perceptron.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\neural_network.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\perceptron.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\perceptron_layer.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\probabilistic_layer.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\scaling_layer.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\neural_network\unscaling_layer.h">
+      <Filter>neural_network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\model_selection\model_selection.h">
+      <Filter>model_selection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\testing_analysis\function_regression_testing.h">
+      <Filter>testing_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\testing_analysis\inverse_problem_testing.h">
+      <Filter>testing_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\testing_analysis\pattern_recognition_testing.h">
+      <Filter>testing_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\testing_analysis\testing_analysis.h">
+      <Filter>testing_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\testing_analysis\time_series_prediction_testing.h">
+      <Filter>testing_analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\conjugate_gradient.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\evolutionary_algorithm.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\gradient_descent.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\levenberg_marquardt_algorithm.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\newton_method.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\quasi_newton_method.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\random_search.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\training_algorithm.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\training_rate_algorithm.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\training_strategy\training_strategy.h">
+      <Filter>training_strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\cross_entropy_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\final_solutions_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\independent_parameters_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\inverse_sum_squared_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\mean_squared_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\minkowski_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\neural_parameters_norm.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\normalized_squared_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\outputs_integrals.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\performance_functional.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\performance_term.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\root_mean_squared_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\solutions_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\performance_functional\sum_squared_error.h">
+      <Filter>performance_functional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\utilities\linear_algebraic_equations.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\utilities\matrix.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\utilities\numerical_differentiation.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\utilities\numerical_integration.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\utilities\vector.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\mathematical_model\ordinary_differential_equations.h">
+      <Filter>mathematical_model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

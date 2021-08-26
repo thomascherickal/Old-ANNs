@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<PerformanceFunctional Version="4">
+    <ObjectiveTermType>NORMALIZED_SQUARED_ERROR</ObjectiveTermType>
+    <RegularizationTermType>NONE</RegularizationTermType>
+    <ConstraintsTermType>NONE</ConstraintsTermType>
+    <ObjectiveFlag>1</ObjectiveFlag>
+    <RegularizationFlag>0</RegularizationFlag>
+    <ConstraintsFlag>0</ConstraintsFlag>
+    <NormalizedSquaredError Version="4">
+        <Display>1</Display>
+    </NormalizedSquaredError>
+    <Display>1</Display>
+</PerformanceFunctional>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <MultilayerPerceptron Version="4">
+        <Architecture>1 3 1</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>0.0575519 -0.166191 -0.00903102 0.126805 0.0271031 -0.00810747 0.0174591 0.00688714 -0.0502221 0.101052</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <BoundingLayer Version="4">
+        <LowerBounds>-1</LowerBounds>
+        <UpperBounds>1</UpperBounds>
+        <Display>1</Display>
+    </BoundingLayer>
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">time</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1"></InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">acceleration</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1"></OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+        </OutputsDescription>
+        <Display>1</Display>
+    </InputsOutputsInformation>
+    <IndependentParameters Version="4">
+        <Parameters>3.14159</Parameters>
+        <Names>
+            <Name Index="1">final_time</Name>
+        </Names>
+        <Units>
+            <Unit Index="1"></Unit>
+        </Units>
+        <Descriptions>
+            <Description Index="1"></Description>
+        </Descriptions>
+        <Minimums>-1</Minimums>
+        <Maximums>1</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <LowerBounds>0</LowerBounds>
+        <UpperBounds>1e+099</UpperBounds>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+        <ScalingFlag>0</ScalingFlag>
+        <BoundingFlag>0</BoundingFlag>
+        <DisplayRangeWarning>0</DisplayRangeWarning>
+        <Display>1</Display>
+    </IndependentParameters>
+    <ScalingLayerFlag>0</ScalingLayerFlag>
+    <UnscalingLayerFlag>0</UnscalingLayerFlag>
+    <BoundingLayerFlag>1</BoundingLayerFlag>
+    <ConditionsLayerFlag>0</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>

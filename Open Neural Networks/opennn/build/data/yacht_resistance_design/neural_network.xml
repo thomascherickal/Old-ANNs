@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<NeuralNetwork Version="4">
+    <InputsOutputsInformation Version="4">
+        <InputsName>
+            <InputName Index="1">longitudinal_center_buoyancy</InputName>
+            <InputName Index="2">prismatic_coe&#x0E;cient</InputName>
+            <InputName Index="3">length_displacement_ratio</InputName>
+            <InputName Index="4">beam_draught_ratio</InputName>
+            <InputName Index="5">length_beam_ratio</InputName>
+            <InputName Index="6">froude_number</InputName>
+        </InputsName>
+        <InputsUnits>
+            <InputUnits Index="1"></InputUnits>
+            <InputUnits Index="2"></InputUnits>
+            <InputUnits Index="3"></InputUnits>
+            <InputUnits Index="4"></InputUnits>
+            <InputUnits Index="5"></InputUnits>
+            <InputUnits Index="6"></InputUnits>
+        </InputsUnits>
+        <InputsDescription>
+            <InputDescription Index="1"></InputDescription>
+            <InputDescription Index="2"></InputDescription>
+            <InputDescription Index="3"></InputDescription>
+            <InputDescription Index="4"></InputDescription>
+            <InputDescription Index="5"></InputDescription>
+            <InputDescription Index="6"></InputDescription>
+        </InputsDescription>
+        <OutputsName>
+            <OutputName Index="1">residuary_resistance</OutputName>
+        </OutputsName>
+        <OutputsUnits>
+            <OutputUnits Index="1"></OutputUnits>
+        </OutputsUnits>
+        <OutputsDescription>
+            <OutputDescription Index="1"></OutputDescription>
+        </OutputsDescription>
+        <Display>1</Display>
+    </InputsOutputsInformation>
+    <MultilayerPerceptron Version="4">
+        <Architecture>6 9 1</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>3.64292 3.12195 -0.110133 0.609176 0.581337 -0.58495 -0.0214342 -1.88129 -5.82374 0.148657 0.210969 0.868586 -1.34705 1.64707 -0.740229 0.246325 -0.264626 -3.01837 4.11384 3.35287 1.62297 -2.60685 0.225508 0.0285318 0.724707 -1.35722 -1.84576 1.89394 -2.86571 0.0382371 0.0678403 1.23483 -2.22863 -1.02053 2.32715 3.9168 0.18222 -0.581979 -2.02962 0.94001 2.63678 -1.71814 0.779496 0.0532914 0.0705341 1.75753 -1.6854 -1.72794 2.89071 -1.61179 -1.27264 1.41857 -1.26634 -0.345998 -2.25185 1.06884 -2.98279 0.0529573 0.119575 1.53766 -2.84777 -1.2958 2.3169 3.61002 -0.973179 -0.226399 0.190687 0.447995 4.22848 -2.02743 0.02637 0.0047227 -3.06041</Parameters>
+        <Display>1</Display>
+    </MultilayerPerceptron>
+    <ScalingLayer Version="4">
+        <Minimums>-5 0.53 4.34 2.81 2.73 0.125</Minimums>
+        <Maximums>0 0.6 5.14 5.35 3.64 0.45</Maximums>
+        <Means>-2.38182 0.564136 4.78864 3.93682 3.20682 0.2875</Means>
+        <StandardDeviations>1.51322 0.02329 0.253057 0.548193 0.247998 0.100942</StandardDeviations>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+        <Display>1</Display>
+    </ScalingLayer>
+    <UnscalingLayer Version="4">
+        <Minimums>-1</Minimums>
+        <Maximums>1</Maximums>
+        <Means>0</Means>
+        <StandardDeviations>1</StandardDeviations>
+        <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+        <Display>1</Display>
+    </UnscalingLayer>
+    <ScalingLayerFlag>1</ScalingLayerFlag>
+    <UnscalingLayerFlag>1</UnscalingLayerFlag>
+    <ProbabilisticLayerFlag>0</ProbabilisticLayerFlag>
+    <BoundingLayerFlag>0</BoundingLayerFlag>
+    <ConditionsLayerFlag>0</ConditionsLayerFlag>
+    <Display>1</Display>
+</NeuralNetwork>

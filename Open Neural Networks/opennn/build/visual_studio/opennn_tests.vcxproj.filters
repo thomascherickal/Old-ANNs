@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utilities_tests">
+      <UniqueIdentifier>{ce6c54c0-5f9c-4f54-8c67-1ac6a0a1226a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mathematical_model_tests">
+      <UniqueIdentifier>{cf963a2f-4824-4cb7-8d2a-ca0f0b9cb8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data_set_tests">
+      <UniqueIdentifier>{a950a507-07df-4bd9-b212-5307e9862a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="neural_network_tests">
+      <UniqueIdentifier>{6eb05650-883a-4ce4-a17b-148d3d9dfa27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="performance_functional_tests">
+      <UniqueIdentifier>{6930329a-6a77-4420-9a9e-4b3d1c15cb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="training_strategy_tests">
+      <UniqueIdentifier>{ea91034d-1772-40f0-85c6-05cbc8ef045f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model_selection_tests">
+      <UniqueIdentifier>{757a7758-2cb2-40cc-934e-dc910688a7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testing_analysis_tests">
+      <UniqueIdentifier>{fb3b47dc-43c5-45fd-b634-0ed3d9313a02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tests\mathematical_model_tests\mathematical_model_test.cpp">
+      <Filter>mathematical_model_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\mathematical_model_tests\plug_in_test.cpp">
+      <Filter>mathematical_model_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\data_set_tests\data_set_test.cpp">
+      <Filter>data_set_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\data_set_tests\instances_information_test.cpp">
+      <Filter>data_set_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\data_set_tests\variables_information_test.cpp">
+      <Filter>data_set_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\bounding_layer_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\conditions_layer_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\independent_parameters_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\inputs_outputs_information_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\multilayer_perceptron_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\neural_network_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\perceptron_layer_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\perceptron_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\probabilistic_layer_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\scaling_layer_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\neural_network_tests\unscaling_layer_test.cpp">
+      <Filter>neural_network_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\model_selection_tests\model_selection_test.cpp">
+      <Filter>model_selection_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\testing_analysis_tests\function_regression_testing_test.cpp">
+      <Filter>testing_analysis_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\testing_analysis_tests\inverse_problem_testing_test.cpp">
+      <Filter>testing_analysis_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\testing_analysis_tests\pattern_recognition_testing_test.cpp">
+      <Filter>testing_analysis_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\testing_analysis_tests\testing_analysis_test.cpp">
+      <Filter>testing_analysis_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\testing_analysis_tests\time_series_prediction_testing_test.cpp">
+      <Filter>testing_analysis_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\conjugate_gradient_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\evolutionary_algorithm_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\gradient_descent_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\levenberg_marquardt_algorithm_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\mock_training_algorithm.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\newton_method_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\quasi_newton_method_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\random_search_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\training_algorithm_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\training_rate_algorithm_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\training_strategy_tests\training_strategy_test.cpp">
+      <Filter>training_strategy_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\cross_entropy_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\final_solutions_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\independent_parameters_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\inverse_sum_squared_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\mean_squared_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\minkowski_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\mock_performance_term.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\neural_parameters_norm_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\normalized_squared_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\outputs_integrals_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\performance_functional_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\performance_term_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\polynomial.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\root_mean_squared_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\solutions_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\performance_functional_tests\sum_squared_error_test.cpp">
+      <Filter>performance_functional_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\utilities_tests\linear_algebraic_equations_test.cpp">
+      <Filter>utilities_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\utilities_tests\matrix_test.cpp">
+      <Filter>utilities_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\utilities_tests\numerical_differentiation_test.cpp">
+      <Filter>utilities_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\utilities_tests\numerical_integration_test.cpp">
+      <Filter>utilities_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\utilities_tests\vector_test.cpp">
+      <Filter>utilities_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\suite_tests_application.cpp" />
+    <ClCompile Include="..\..\tests\unit_testing.cpp" />
+    <ClCompile Include="..\..\tests\mathematical_model_tests\ordinary_differential_equations_test.cpp">
+      <Filter>mathematical_model_tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\mathematical_model_tests\mock_ordinary_differential_equations.cpp">
+      <Filter>mathematical_model_tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tests\mathematical_model_tests\mathematical_model_test.h">
+      <Filter>mathematical_model_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\mathematical_model_tests\plug_in_test.h">
+      <Filter>mathematical_model_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\data_set_tests\data_set_test.h">
+      <Filter>data_set_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\data_set_tests\instances_information_test.h">
+      <Filter>data_set_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\data_set_tests\variables_information_test.h">
+      <Filter>data_set_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\bounding_layer_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\conditions_layer_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\independent_parameters_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\inputs_outputs_information_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\multilayer_perceptron_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\neural_network_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\perceptron_layer_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\perceptron_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\probabilistic_layer_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\scaling_layer_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\neural_network_tests\unscaling_layer_test.h">
+      <Filter>neural_network_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\model_selection_tests\model_selection_test.h">
+      <Filter>model_selection_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\testing_analysis_tests\function_regression_testing_test.h">
+      <Filter>testing_analysis_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\testing_analysis_tests\inverse_problem_testing_test.h">
+      <Filter>testing_analysis_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\testing_analysis_tests\pattern_recognition_testing_test.h">
+      <Filter>testing_analysis_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\testing_analysis_tests\testing_analysis_test.h">
+      <Filter>testing_analysis_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\testing_analysis_tests\time_series_prediction_testing_test.h">
+      <Filter>testing_analysis_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\conjugate_gradient_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\evolutionary_algorithm_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\gradient_descent_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\levenberg_marquardt_algorithm_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\mock_training_algorithm.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\newton_method_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\quasi_newton_method_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\random_search_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\training_algorithm_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\training_rate_algorithm_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\training_strategy_tests\training_strategy_test.h">
+      <Filter>training_strategy_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\cross_entropy_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\final_solutions_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\independent_parameters_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\inverse_sum_squared_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\mean_squared_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\minkowski_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\mock_performance_term.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\neural_parameters_norm_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\normalized_squared_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\outputs_integrals_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\performance_functional_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\performance_term_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\polynomial.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\root_mean_squared_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\solutions_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\performance_functional_tests\sum_squared_error_test.h">
+      <Filter>performance_functional_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\utilities_tests\linear_algebraic_equations_test.h">
+      <Filter>utilities_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\utilities_tests\matrix_test.h">
+      <Filter>utilities_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\utilities_tests\numerical_differentiation_test.h">
+      <Filter>utilities_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\utilities_tests\numerical_integration_test.h">
+      <Filter>utilities_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\utilities_tests\vector_test.h">
+      <Filter>utilities_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\unit_testing.h" />
+    <ClInclude Include="..\..\tests\mathematical_model_tests\ordinary_differential_equations_test.h">
+      <Filter>mathematical_model_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\tests\mathematical_model_tests\mock_ordinary_differential_equations.h">
+      <Filter>mathematical_model_tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\data_set\data_set.cpp" />
+    <ClCompile Include="..\..\source\data_set\instances_information.cpp" />
+    <ClCompile Include="..\..\source\data_set\variables_information.cpp" />
+    <ClCompile Include="..\..\source\mathematical_model\mathematical_model.cpp" />
+    <ClCompile Include="..\..\source\mathematical_model\ordinary_differential_equations.cpp" />
+    <ClCompile Include="..\..\source\mathematical_model\plug_in.cpp" />
+    <ClCompile Include="..\..\source\model_selection\model_selection.cpp" />
+    <ClCompile Include="..\..\source\neural_network\bounding_layer.cpp" />
+    <ClCompile Include="..\..\source\neural_network\conditions_layer.cpp" />
+    <ClCompile Include="..\..\source\neural_network\independent_parameters.cpp" />
+    <ClCompile Include="..\..\source\neural_network\inputs_outputs_information.cpp" />
+    <ClCompile Include="..\..\source\neural_network\multilayer_perceptron.cpp" />
+    <ClCompile Include="..\..\source\neural_network\neural_network.cpp" />
+    <ClCompile Include="..\..\source\neural_network\perceptron.cpp" />
+    <ClCompile Include="..\..\source\neural_network\perceptron_layer.cpp" />
+    <ClCompile Include="..\..\source\neural_network\probabilistic_layer.cpp" />
+    <ClCompile Include="..\..\source\neural_network\scaling_layer.cpp" />
+    <ClCompile Include="..\..\source\neural_network\unscaling_layer.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\cross_entropy_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\final_solutions_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\independent_parameters_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\inverse_sum_squared_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\mean_squared_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\minkowski_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\neural_parameters_norm.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\normalized_squared_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\outputs_integrals.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\performance_functional.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\performance_term.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\root_mean_squared_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\solutions_error.cpp" />
+    <ClCompile Include="..\..\source\performance_functional\sum_squared_error.cpp" />
+    <ClCompile Include="..\..\source\testing_analysis\function_regression_testing.cpp" />
+    <ClCompile Include="..\..\source\testing_analysis\inverse_problem_testing.cpp" />
+    <ClCompile Include="..\..\source\testing_analysis\pattern_recognition_testing.cpp" />
+    <ClCompile Include="..\..\source\testing_analysis\testing_analysis.cpp" />
+    <ClCompile Include="..\..\source\testing_analysis\time_series_prediction_testing.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\conjugate_gradient.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\evolutionary_algorithm.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\gradient_descent.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\levenberg_marquardt_algorithm.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\newton_method.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\quasi_newton_method.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\random_search.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\training_algorithm.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\training_rate_algorithm.cpp" />
+    <ClCompile Include="..\..\source\training_strategy\training_strategy.cpp" />
+    <ClCompile Include="..\..\source\utilities\linear_algebraic_equations.cpp" />
+    <ClCompile Include="..\..\source\utilities\numerical_differentiation.cpp" />
+    <ClCompile Include="..\..\source\utilities\numerical_integration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\data_set\data_set.h" />
+    <ClInclude Include="..\..\source\data_set\instances_information.h" />
+    <ClInclude Include="..\..\source\data_set\variables_information.h" />
+    <ClInclude Include="..\..\source\mathematical_model\mathematical_model.h" />
+    <ClInclude Include="..\..\source\mathematical_model\ordinary_differential_equations.h" />
+    <ClInclude Include="..\..\source\mathematical_model\plug_in.h" />
+    <ClInclude Include="..\..\source\model_selection\model_selection.h" />
+    <ClInclude Include="..\..\source\neural_network\bounding_layer.h" />
+    <ClInclude Include="..\..\source\neural_network\conditions_layer.h" />
+    <ClInclude Include="..\..\source\neural_network\independent_parameters.h" />
+    <ClInclude Include="..\..\source\neural_network\inputs_outputs_information.h" />
+    <ClInclude Include="..\..\source\neural_network\multilayer_perceptron.h" />
+    <ClInclude Include="..\..\source\neural_network\neural_network.h" />
+    <ClInclude Include="..\..\source\neural_network\perceptron.h" />
+    <ClInclude Include="..\..\source\neural_network\perceptron_layer.h" />
+    <ClInclude Include="..\..\source\neural_network\probabilistic_layer.h" />
+    <ClInclude Include="..\..\source\neural_network\scaling_layer.h" />
+    <ClInclude Include="..\..\source\neural_network\unscaling_layer.h" />
+    <ClInclude Include="..\..\source\performance_functional\cross_entropy_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\final_solutions_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\independent_parameters_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\inverse_sum_squared_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\mean_squared_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\minkowski_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\neural_parameters_norm.h" />
+    <ClInclude Include="..\..\source\performance_functional\normalized_squared_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\outputs_integrals.h" />
+    <ClInclude Include="..\..\source\performance_functional\performance_functional.h" />
+    <ClInclude Include="..\..\source\performance_functional\performance_term.h" />
+    <ClInclude Include="..\..\source\performance_functional\root_mean_squared_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\solutions_error.h" />
+    <ClInclude Include="..\..\source\performance_functional\sum_squared_error.h" />
+    <ClInclude Include="..\..\source\testing_analysis\function_regression_testing.h" />
+    <ClInclude Include="..\..\source\testing_analysis\inverse_problem_testing.h" />
+    <ClInclude Include="..\..\source\testing_analysis\pattern_recognition_testing.h" />
+    <ClInclude Include="..\..\source\testing_analysis\testing_analysis.h" />
+    <ClInclude Include="..\..\source\testing_analysis\time_series_prediction_testing.h" />
+    <ClInclude Include="..\..\source\training_strategy\conjugate_gradient.h" />
+    <ClInclude Include="..\..\source\training_strategy\evolutionary_algorithm.h" />
+    <ClInclude Include="..\..\source\training_strategy\gradient_descent.h" />
+    <ClInclude Include="..\..\source\training_strategy\levenberg_marquardt_algorithm.h" />
+    <ClInclude Include="..\..\source\training_strategy\newton_method.h" />
+    <ClInclude Include="..\..\source\training_strategy\quasi_newton_method.h" />
+    <ClInclude Include="..\..\source\training_strategy\random_search.h" />
+    <ClInclude Include="..\..\source\training_strategy\training_algorithm.h" />
+    <ClInclude Include="..\..\source\training_strategy\training_rate_algorithm.h" />
+    <ClInclude Include="..\..\source\training_strategy\training_strategy.h" />
+    <ClInclude Include="..\..\source\utilities\linear_algebraic_equations.h" />
+    <ClInclude Include="..\..\source\utilities\matrix.h" />
+    <ClInclude Include="..\..\source\utilities\numerical_differentiation.h" />
+    <ClInclude Include="..\..\source\utilities\numerical_integration.h" />
+    <ClInclude Include="..\..\source\utilities\vector.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{58C46ADE-B923-4FA0-B033-CC461F6035CC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OpenNN</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
